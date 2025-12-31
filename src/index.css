@@ -1,0 +1,69 @@
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+ */
+@import "tailwindcss";
+
+body{
+  font-family: "regular", sans-serif;
+  background: #F7F7F8;
+}
+
+
+* {
+  -webkit-user-select: none; /* Chrome, Safari */
+  -moz-user-select: none;    /* Firefox */
+  -ms-user-select: none;     /* IE/Edge */
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+  font-family: 'thin';
+  src: url('/src/assets/fonts/GraphikArabic-Thin.ttf');
+}
+@font-face {
+  font-family: 'super';
+  src: url('/src/assets/fonts/GraphikArabic-Super.ttf');
+}
+@font-face {
+  font-family: 'semibold';
+  src: url('/src/assets/fonts/GraphikArabic-Semibold.ttf');
+}
+@font-face {
+  font-family: 'regular';
+  src: url('/src/assets/fonts/GraphikArabic-Regular.ttf');
+}
+@font-face {
+  font-family: 'medium';
+  src: url('/src/assets/fonts/GraphikArabic-Medium.ttf');
+}
+@font-face {
+  font-family: 'extralight';
+  src: url('/src/assets/fonts/GraphikArabic-Extralight.ttf');
+}
+@font-face {
+  font-family: 'bold';
+  src: url('/src/assets/fonts/GraphikArabic-Bold.ttf');
+}
+@font-face {
+  font-family: 'black';
+  src: url('/src/assets/fonts/GraphikArabic-Black.ttf');
+}
+
+@font-face {
+  font-family: 'kurd';
+  src: url('/src/assets/fonts/Kurdish-Rubik-Regular.ttf');
+}
+
+@theme {
+  --font-thin: "thin", sans-serif; 
+  --font-super: "super", sans-serif; 
+  --font-semibold: "semibold", sans-serif; 
+  --font-regular: "regular", sans-serif; 
+  --font-medium: "medium", sans-serif; 
+  --font-bold: "bold", sans-serif; 
+  --font-black: "black", sans-serif; 
+  --font-kurd: "kurd", sans-serif; 
+}
